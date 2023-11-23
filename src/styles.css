@@ -1,0 +1,136 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #222;
+    color: #666;
+    margin: 0;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.MadeByMe {
+    display: flex;
+    height: 46px;
+    align-items: center;
+    padding: 4px 24px;
+    background-color: #313131;
+    color: #a4a4a4;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.PlayersList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.PlayerCard {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  
+.PlayerCard:hover {
+    transition: .8s;
+    background-color: #313131;
+    cursor: pointer;
+}
+
+.PlayerContent {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 1px solid #313131;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 16px;
+}
+
+
+.PlayerCardImg {
+    width: 64px;
+    height: 64px;
+}
+
+.PlayerCard img {
+    width: 64px;
+    height: 50.42px;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.ContentBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+
+.StatusBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.SpaceBetweenBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PlayerName {
+    display: flex;
+    height: fit-content;
+    padding: 4px 8px;
+    background-color: #313131;
+    color: #a4a4a4;
+    border-radius: 4px;
+    width: fit-content;
+    font-weight: 500;
+}
+
+progress[value] {
+    --color: #f7f7f7; /* the progress color */
+    --background: #313131; /* the background color */
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 16px;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: var(--color);
+  }
+  progress[value]::-moz-progress-bar {
+    border-radius: 10em;
+    background: var(--color);
+  }
+
+  .BoldText {
+    font-weight: 500;
+    color: #f7f7f7;
+  }
